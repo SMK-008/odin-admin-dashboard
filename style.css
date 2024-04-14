@@ -147,7 +147,21 @@ gap: 20px;
     grid-column: 2/3;
     background-color: grey;
     height: 300px;
+    height: max-content;
 }
+.trending li{
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.trending img{
+    background-color: pink;
+    border-radius:25px ;
+    height: 50px;
+    width: 50px;
+}
+
 ul{
     list-style-type: none;
 }
