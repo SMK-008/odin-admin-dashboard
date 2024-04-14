@@ -125,6 +125,7 @@ gap: 20px;
 .projects>div.project:hover{
     /* opacity: 0.7; */
     border-left: 16px solid yellowgreen;
+    box-shadow: 2px 2px;
 }
 .projects h1{
     font-size: 20px;
