@@ -137,12 +137,13 @@ gap: 20px;
 .announcements{
     grid-row:1/2.5 ;
     grid-column: 2/3;
-    height: 400px;
-}
-.announcements{
-    grid-row:1/2.5 ;
-    grid-column: 2/3;
+    height: max-content;
     background-color: white;
+
+}
+#main-heading{
+    font-size: 30px;
+    text-decoration: underline;
 }
 .announcements h1 {
     font-size: 20px;
@@ -169,4 +170,9 @@ gap: 20px;
 
 ul{
     list-style-type: none;
+}
+#trending-head{
+    font-size:30px;
+    text-decoration: underline;
+    text-align: center;
 }
