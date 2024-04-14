@@ -122,6 +122,10 @@ gap: 20px;
     width: 300px;
     border-left: 8px solid yellowgreen;
 }
+.projects>div.project:hover{
+    /* opacity: 0.7; */
+    border-left: 16px solid yellowgreen;
+}
 .projects h1{
     font-size: 20px;
 }
